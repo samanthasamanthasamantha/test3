@@ -1,0 +1,113 @@
+
+@media(max-width: 1300px) {
+    header .navbar1 {
+        display: none;
+    }
+
+    header .menubar {
+        display: block;
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 992px) {
+    footer .footer-nav{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 786px) {
+    header .navbar2 {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .service1{
+        background-position: 52%;
+    }
+    .service2{
+        background-position: 52%;
+    }
+    .service3{
+        background-position: 52%;
+    }
+    .service4{
+        background-position: 52%;
+    }
+}
+
+@media(max-width: 600px) {
+    .banner-image {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        align-items: center;
+    }
+    .banner h2 {
+        font-size: 6vw;
+    }
+    .banner h1 {
+        font-size: 8vw;
+    }
+    .banner .second-heading{
+        font-size: 8vw;
+    }
+    .banner p{
+        font-size: 3vw;
+    }
+    .banner button{
+        font-size: 4vw;
+    }
+    .banner .dash span{
+        width: 6vw;
+    }
+
+    .service1{
+        background-position: 84%;
+        padding: 20px;
+        line-height: 2em;
+    }
+    .service2{
+        background-position: 84%;
+        padding: 20px;
+        line-height: 2em;
+    }
+    .service3{
+        background-position: 84%;
+        padding: 20px;
+        line-height: 2em;
+    }
+    .service4{
+        background-position: 84%;
+        padding: 20px;
+        line-height: 2em;
+    }
+    
+    footer {
+        margin: 72px 30px;
+    }
+}
+
+@media(max-width: 480px){
+    .work{
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-list {
+        margin-left: -50px;
+    }
+    .services{
+        margin: 0px;
+    }
+    .services h1{
+        text-align: center;
+    }
+
+}
